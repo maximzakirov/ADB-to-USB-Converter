@@ -1,0 +1,52 @@
+   1               		.file	"main.c"
+   2               	__SP_L__ = 0x3d
+   3               	__SREG__ = 0x3f
+   4               	__tmp_reg__ = 0
+   5               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+ 109               	.global	initIO
+ 111               	initIO:
+   1:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** #include <stdio.h>
+   2:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** #include <avr/io.h>
+   3:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** #include <avr/interrupt.h>
+   4:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** #include <util/delay.h>
+   5:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** 
+   6:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** void initIO(void) {
+ 113               	.LM0:
+ 114               	.LFBB1:
+ 115               	/* prologue: function */
+ 116               	/* frame size = 0 */
+ 117               	/* stack size = 0 */
+ 118               	.L__stack_usage = 0
+ 119 0000 0895      		ret
+ 121               	.Lscope1:
+ 122               		.section	.text.startup,"ax",@progbits
+ 124               	.global	main
+ 126               	main:
+   7:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** 	
+   8:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** }
+   9:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** 
+  10:/Users/maximzakirov/Documents/Coding/Software/Software/main.c **** int main(void) {
+ 128               	.LM1:
+ 129               	.LFBB2:
+ 130               	/* prologue: function */
+ 131               	/* frame size = 0 */
+ 132               	/* stack size = 0 */
+ 133               	.L__stack_usage = 0
+ 134               	.L3:
+ 135 0000 00C0      		rjmp .L3
+ 137               	.Lscope2:
+ 138               		.text
+ 140               	.Letext0:
+ 141               		.ident	"GCC: (GNU) 4.8.1"
+DEFINED SYMBOLS
+                            *ABS*:00000000 main.c
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:2      *ABS*:0000003d __SP_L__
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:3      *ABS*:0000003f __SREG__
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:4      *ABS*:00000000 __tmp_reg__
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:5      *ABS*:00000001 __zero_reg__
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:111    .text:00000000 initIO
+/var/folders/mn/vwphblms7bv8khdpn3hykwpw0000gn/T//ccA4WwU6.s:126    .text.startup:00000000 main
+
+NO UNDEFINED SYMBOLS
