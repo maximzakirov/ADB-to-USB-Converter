@@ -40,7 +40,7 @@
 
 #include conf.mk
 # MCU name
-MCU = attiny2313
+MCU = atmega168p
 
 
 # Processor frequency.
@@ -50,10 +50,10 @@ MCU = attiny2313
 #     automatically to create a 32-bit value in your source code.
 F_CPU = 12000000
 
-AVRDUDE_PROGRAMMER = stk500v2
+AVRDUDE_PROGRAMMER = avrispv2
 
 # com1 = serial port. Use lpt1 to connect to parallel port.
-AVRDUDE_PORT = /dev/tty.usbmodem00069301    # programmer connected to serial device
+AVRDUDE_PORT = /dev/tty.usbmodem33    # programmer connected to serial device
 
 # Output format. (can be srec, ihex, binary)
 FORMAT = ihex
